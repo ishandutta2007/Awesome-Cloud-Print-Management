@@ -1,34 +1,53 @@
-# Awesome Cloud Print Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of **Cloud Print Management** SaaS solutions, serverless printing platforms, and open-source print infrastructure tools.
+<img src="./assets/banner.svg" alt="Awesome Cloud Print Management Banner" width="100%" />
 
-Eliminate legacy on-premises print servers. Modern cloud print management moves print job routing, driver deployment, secure release (pull printing), and zero-trust authentication to the cloud—enabling seamless printing across hybrid workforces, multi-tenant offices, and ChromeOS/mobile fleets without local hardware dependencies.
+# 🖨️ Awesome Cloud Print Management
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=red" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 **A curated directory of Cloud Print Management SaaS solutions, serverless printing platforms, and open-source print infrastructure tools.**
+
+</div>
+
+Eliminate legacy on-premises print servers! Modern **cloud print management** moves print job routing, driver distribution, secure pull printing, and zero-trust identity authentication to the cloud—enabling seamless printing across hybrid workforces, multi-tenant offices, and ChromeOS/mobile fleets without local hardware dependencies. 🌐🔒
 
 ---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Framework Ideas](#architecture--framework-ideas)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Security Considerations](#disclaimer--security-considerations)
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architecture & Framework Ideas](#️-architecture--framework-ideas)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [🛡️ Disclaimer & Security Considerations](#️-disclaimer--security-considerations)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
-The global cloud print management market is currently valued at approximately **$6.1B to $6.9B** and is projected to expand at a **CAGR of ~11.5% to exceed $15B+ by the mid-2030s**, propelled by enterprise cloud migration, zero-trust security adoption, and the widespread decommission of on-prem Windows/Linux print servers.
+The global cloud print management market is currently valued at approximately **$6.1B to $6.9B** and is projected to expand at a **CAGR of ~11.5% to exceed $15B+ by the mid-2030s**, propelled by enterprise cloud migration, zero-trust security adoption, and the widespread decommission of legacy on-prem Windows/Linux print servers. 📈
 
-The sector is **moderately consolidated to semi-fragmented**: traditional print hardware titans (HP, Canon, Xerox/Lexmark) control substantial distribution through managed print services (MPS), while specialized independent software vendors (PaperCut, Vasion/PrinterLogic, ThinPrint) and agile cloud-native challengers (directprint.io, ezeep) dominate multi-vendor, serverless direct-IP printing environments.
+The sector is **moderately consolidated to semi-fragmented**: traditional print hardware titans (HP, Canon, Xerox/Lexmark) control substantial distribution through managed print services (MPS), while specialized independent software vendors (PaperCut, Vasion/PrinterLogic, ThinPrint) and agile cloud-native challengers (directprint.io, ezeep) dominate multi-vendor, serverless direct-IP printing environments. 🌐
 
 ---
 
-## SaaS & Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
-*Below is a curated comparison of leading cloud print management SaaS products, sorted descending by company size (annual revenue / valuation).*
+*Below is a curated comparison of leading cloud print management SaaS products, sorted descending by company size (annual revenue / valuation).* 🏷️
 
-| Product | Company Size (Revenue / Valuation) | Description | Starting Pricing | Free Tier / Trial Limits |
+| Product | 🏢 Company Size (Revenue / Valuation) | 📝 Description | 💳 Starting Pricing | 🎁 Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[HP SDS (Smart Device Services)](https://www.hp.com/)** | **~$55.3B** annual revenue (public: NYSE: HPQ) | Cloud Data Collection Agent (cDCA) enabling remote device telemetry, diagnostics, and print fleet oversight without on-premise infrastructure. | **Quote-only** (packaged with HP MPS / MPS Monitor contracts) | **No free tier**; available as a standard entitlement for authorized HP MPS contract accounts. |
 | **[uniFLOW Online](https://www.uniflow.com/)** | **~$31.0B** annual revenue (Canon Inc., public: TYO: 7751) | Canon's cloud-native print & scan management service providing secure pull-printing, mobile print submission, and audit tracking. | **Quote-only** (authorized Canon dealer pricing; sample unit runs ~€139.62/mo/device) | **No permanent free tier**; pilot access provided via certified Canon partner demonstrations. |
@@ -42,11 +61,11 @@ The sector is **moderately consolidated to semi-fragmented**: traditional print 
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub Star Count.*
+*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub Star Count.* ⭐
 
-| Project | Star Count | Description |
+| 📦 Project | ⭐ Star Count | 📝 Description |
 | :--- | :--- | :--- |
 | **[CUPS](https://github.com/OpenPrinting/cups)** | [![Stars](https://img.shields.io/github/stars/OpenPrinting/cups?style=social&color=white)](https://github.com/OpenPrinting/cups/stargazers) | The industry-standard open-source printing system for Linux, Unix, and macOS, providing IPP Everywhere standards and PPD driver pipelines. |
 | **[cups-web](https://github.com/hanxi/cups-web)** | [![Stars](https://img.shields.io/github/stars/hanxi/cups-web?style=social&color=white)](https://github.com/hanxi/cups-web/stargazers) | Lightweight web-based frontend and networked print service wrapper designed to turn any local USB or network printer into an accessible network/cloud service. |
@@ -63,9 +82,9 @@ The sector is **moderately consolidated to semi-fragmented**: traditional print 
 
 ---
 
-## Architecture & Framework Ideas
+## 🏗️ Architecture & Framework Ideas
 
-Organizations looking to establish a **self-hosted, vendor-neutral cloud printing pipeline** without per-seat licensing fees can combine several open components:
+Organizations looking to establish a **self-hosted, vendor-neutral cloud printing pipeline** without per-seat licensing fees can combine several open components: 🧩
 
 ```
 [ Client Apps / Webhooks / Mobile ]
@@ -86,24 +105,49 @@ Organizations looking to establish a **self-hosted, vendor-neutral cloud printin
        [ Network Printer / MFD Fleet ]
 ```
 
-- **Cloud Print Controller**: Use **[go-ipp](https://github.com/phin1x/go-ipp)** or **[PAPPL](https://github.com/michaelrsweet/pappl)** to expose standard RFC-compliant IPP endpoints over HTTPS.
-- **Edge Deployment**: Deploy containerized **[docker-cups-airprint](https://github.com/SickHub/docker-cups-airprint)** instances at branch offices to communicate directly with local printers.
-- **Zero Trust Transport**: Connect edge nodes to cloud dispatchers via WireGuard tunnels or reverse SSH proxies to avoid opening inbound firewall ports.
+- 🌐 **Cloud Print Controller**: Use **[go-ipp](https://github.com/phin1x/go-ipp)** or **[PAPPL](https://github.com/michaelrsweet/pappl)** to expose standard RFC-compliant IPP endpoints over HTTPS.
+- 🐳 **Edge Deployment**: Deploy containerized **[docker-cups-airprint](https://github.com/SickHub/docker-cups-airprint)** instances at branch offices to communicate directly with local printers.
+- 🔐 **Zero Trust Transport**: Connect edge nodes to cloud dispatchers via WireGuard tunnels or reverse SSH proxies to avoid opening inbound firewall ports.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Ensure entries conform to formatting rules:
+Contributions are very welcome! 🎉
+
+1. 🍴 Fork this repository.
+2. ✍️ Ensure entries conform to formatting rules:
    - **SaaS platforms**: Must specify company size/revenue, concrete starting price (avoid generic "Quote" if public tiers exist), and exact free tier/trial details.
    - **Open-source projects**: Must include an SVG social star badge linking to `/stargazers`, a concise technical description, and maintain descending star sorting.
-3. Open a Pull Request with a clear description of the project added or updated.
+3. 🚀 Open a Pull Request with a clear description of the project added or updated.
 
 ---
 
-## Disclaimer & Security Considerations
+## 💖 Support
 
-- This list is **community-curated** for educational, benchmarking, and infrastructural research purposes.
-- **Security Notice**: Print streams often carry confidential intellectual property, personally identifiable information (PII), or financial records. Always enforce TLS in transit, audit logging, role-based access control (RBAC), and mutual TLS (mTLS) or zero-trust tunneling when routing print payloads across public clouds.
-- Pricing, commercial tiers, and trial conditions are subject to vendor change—always verify directly with product documentation before procurement.
+Thank you for exploring this project! If you find this list helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** and share your own curated insights.
+- 📢 **Share it** on social media, Reddit, or with your team.
+- ☕ **Buy me a coffee / Sponsor**: If this saved you time or aided your research, support my ongoing open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cloud-Print-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cloud-Print-Management&type=date&legend=top-left)
+
+---
+
+## 🛡️ Disclaimer & Security Considerations
+
+- ⚠️ This list is **community-curated** for educational, benchmarking, and infrastructural research purposes.
+- 🔒 **Security Notice**: Print streams often carry confidential intellectual property, personally identifiable information (PII), or financial records. Always enforce TLS in transit, audit logging, role-based access control (RBAC), and mutual TLS (mTLS) or zero-trust tunneling when routing print payloads across public clouds.
+- ℹ️ Pricing, commercial tiers, and trial conditions are subject to vendor change—always verify directly with product documentation before procurement.
