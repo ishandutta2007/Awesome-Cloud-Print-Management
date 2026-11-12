@@ -71,3 +71,72 @@ Star the repo if you find it useful!
 Let's make cloud print management more open, secure, and cost-transparent.
 # Awesome-Cloud-Print-Management
 
+# Top Cloud Print Management Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Serverless Printing, Secure Release & Cloud Print Infrastructure*  
+**Last updated: March 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Print Management**. These tools eliminate on-premises print servers by moving print job routing, user authentication, and secure release to the cloud—enabling organizations to manage printing across distributed offices, remote workers, and Chrome OS/mobile fleets without maintaining local print infrastructure.
+
+**Examples** include PaperCut Hive, Printix, ezeep Blue, PrinterLogic (Vasion), uniFLOW Online, directprint.io, ThinPrint Cloud, HP SDS, Lexmark Cloud Print Management, and Zoho Print (the category leaders).
+
+**Open-source emphasis**: This section highlights every major active project for self-hosted cloud printing and open-source print infrastructure—ideal for system administrators, platform engineers, and organizations seeking transparent, vendor-neutral printing without per-printer or per-user licensing surprises.
+
+Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
+|---------|-------------|-------------------|--------------------------|
+| **[PaperCut Hive](https://www.papercut.com/)** | Serverless cloud print management with secure release and embedded app for device authentication. Sold exclusively through certified resellers. Pricing is per printer as an annual subscription; embedded app and Cloud OCR purchased separately . | Quote-only via resellers (per printer, annual) | No free tier; free trial available via reseller. Remote configuration/training bundles available from ~$995 one-time for 1–9 devices . |
+| **[Printix](https://www.printix.net/)** | Cloud print management priced per logged-in user. Monthly pay-as-you-go or annual prepaid plans. All features included (unlimited printers, devices, pages, locations) with no paid add-ons. Integrates with Azure AD . | Scaled volume-based pricing (per logged-in user); exact rates via Microsoft Marketplace or sales . Third-party listing shows paid plans from ~$2.09/month. | No permanent free tier; **one-month full-feature trial** (no credit card required) . Educational pricing free for students . |
+| **[ezeep Blue](https://www.ezeep.com/)** | Affordable cloud printing for small teams through enterprise. Free plan supports up to 10 users; paid tiers add secure pull printing, more connectors, and Microsoft Entra ID sync . | Pro: ~$3.45/user/month (10-user minimum, up to 10 connectors); Business: ~$5.95/user/month (up to 80 connectors) . | **Free forever**: up to 10 users . Secure Pull Printing requires Business plan. |
+| **[PrinterLogic (Vasion)](https://www.printerlogic.com/)** | Serverless print management with SaaS and virtual appliance options. Eliminates print servers; supports Chrome Enterprise and distributed fleets. Users highlight ability to remove 4 print servers and self-service printer installation . | ~$109.60/month (Software Advice listing) . | No free trial available; no free version . |
+| **[uniFLOW Online](https://www.uniflow.com/)** | Canon's cloud print and scan management. Secure release, accounting, mobile printing, and scanning workflows. Device-based pricing via Canon reseller network. | Quote-only via Canon resellers (per device). Sample invoice shows ~€139.62/month per unit (pre-VAT) for a single license . | No free trial or free plan. |
+| **[directprint.io (Coreza Print)](https://directprint.io/)** | Chrome Enterprise Recommended print management for Chrome OS and mixed fleets. Serverless; point-and-click printer allocation to Google Workspace users, groups, OUs, and devices. | Educational pricing: ~$0.30/user/month (annual, 100 users); ~$0.216/user/month (annual, 1,000 users). Enterprise pricing differs . | **Free 30-day trial** . |
+| **[ThinPrint Cloud](https://www.thinprint.com/)** | Enterprise cloud printing with custom pricing and quotation-based model. No public pricing or free tier. | Quote-only (custom pricing) | No free trial or free plan. |
+| **[HP SDS](https://www.hp.com/)** | HP Smart Device Services with Cloud Data Collection Agent (cDCA). Enables remote device management and data collection without onsite infrastructure. Uses TLS encryption and OAuth-scoped device trust. Available via MPS Monitor integration . | Quote-only (HP MPS contracts; MPS Monitor subscription scales by device count) . | No public free tier; included at no additional cost for MPS Monitor users . |
+| **[Lexmark Cloud Print Management](https://www.lexmark.com/)** | Subscription-based cloud print management with secure release, mobile print, badge authentication, and print analytics. Hybrid option available for regulated environments . | Quote-only (subscription-based; pay only for resources used) . | No public free tier. |
+| **[Zoho Print](https://www.zoho.com/)** | Print management within the Zoho ecosystem (limited public information available; primarily for Zoho application workflows). | Contact Zoho for pricing | Contact vendor |
+
+## Open-Source GitHub Projects
+
+| Project | Star Badge | Description |
+|---------|------------|-------------|
+| **[XiotBox](https://github.com/xiotbox/xiotbox-downloads)** | [![Stars](https://img.shields.io/github/stars/xiotbox/xiotbox-downloads?style=social&color=white)](https://github.com/xiotbox/xiotbox-downloads/stargazers) | Self-hosted cloud printing platform compatible with the PrintNode client protocol. All printing data stays on your own servers—no third-party cloud dependency. Odoo modules free; Runtime subscription with **automatic 30-day trial on first deploy**. Features end-to-end transport encryption (Ed25519/X25519), device management, and hardened Docker container . |
+
+### Additional Strong Open-Source Options
+
+| Project | Star Badge | Description |
+|---------|------------|-------------|
+| **[CUPS](https://github.com/OpenPrinting/cups)** | [![Stars](https://img.shields.io/github/stars/OpenPrinting/cups?style=social&color=white)](https://github.com/OpenPrinting/cups/stargazers) | The standard open-source printing system for Linux and Unix. Can be combined with reverse proxies and VPN for remote access, though it lacks native cloud orchestration and secure release features. |
+| **[PrintNode](https://github.com/PrintNode/PrintNode)** | [![Stars](https://img.shields.io/github/stars/PrintNode/PrintNode?style=social&color=white)](https://github.com/PrintNode/PrintNode/stargazers) | Open-source client for the PrintNode cloud printing service. Can be adapted for self-hosted deployments with compatible server implementations like XiotBox. |
+
+**Frameworks for building custom systems**: Combine **XiotBox** for self-hosted PrintNode-compatible cloud printing, **CUPS** for local print queue management, and a reverse proxy (Nginx/Traefik) with VPN for secure remote access—creating a basic self-hosted print infrastructure without per-printer licensing.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Cloud print management platforms handle print job metadata and user authentication credentials; enforce least-privilege access, TLS encryption, and audit logging for print activity.
+- Open-source alternatives to commercial cloud print management are extremely limited; XiotBox is one of the few active self-hosted options. Most organizations still rely on commercial SaaS for full secure-release and fleet-management features. Pricing and free-tier limits change frequently—verify against vendor pages before committing.
+
+---
+
+**Made for system administrators, IT managers, and organizations building print infrastructure.**  
+Let's make cloud print management more open, secure, and cost-transparent.
