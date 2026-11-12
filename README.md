@@ -1,6 +1,6 @@
 # Awesome-Cloud-Print-Management
 
-## Top Cloud Print Management Ecosystem
+### Top Cloud Print Management Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Serverless Printing, Secure Release & Cloud Print Infrastructure*  
@@ -71,7 +71,7 @@ Star the repo if you find it useful!
 Let's make cloud print management more open, secure, and cost-transparent.
 # Awesome-Cloud-Print-Management
 
-# Top Cloud Print Management Ecosystem
+## Top Cloud Print Management Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Serverless Printing, Secure Release & Cloud Print Infrastructure*  
