@@ -8,7 +8,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Print-Management?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Print-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -63,9 +63,9 @@ The sector is **moderately consolidated to semi-fragmented**: traditional print 
 
 ## 💻 Open-Source GitHub Projects
 
-*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub Star Count.* ⭐
+*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub Stars_Count.* ⭐
 
-| 📦 Project | ⭐ Star Count | 📝 Description |
+| 📦 Project | ⭐ Stars_Count | 📝 Description |
 | :--- | :--- | :--- |
 | **[CUPS](https://github.com/OpenPrinting/cups)** | [![Stars](https://img.shields.io/github/stars/OpenPrinting/cups?style=social&color=white)](https://github.com/OpenPrinting/cups/stargazers) | The industry-standard open-source printing system for Linux, Unix, and macOS, providing IPP Everywhere standards and PPD driver pipelines. |
 | **[cups-web](https://github.com/hanxi/cups-web)** | [![Stars](https://img.shields.io/github/stars/hanxi/cups-web?style=social&color=white)](https://github.com/hanxi/cups-web/stargazers) | Lightweight web-based frontend and networked print service wrapper designed to turn any local USB or network printer into an accessible network/cloud service. |
@@ -118,7 +118,7 @@ Contributions are very welcome! 🎉
 1. 🍴 Fork this repository.
 2. ✍️ Ensure entries conform to formatting rules:
    - **SaaS platforms**: Must specify company size/revenue, concrete starting price (avoid generic "Quote" if public tiers exist), and exact free tier/trial details.
-   - **Open-source projects**: Must include an SVG social star badge linking to `/stargazers`, a concise technical description, and maintain descending star sorting.
+   - **Open-source projects**: Must include an SVG social Stars_Badge linking to `/stargazers`, a concise technical description, and maintain descending star sorting.
 3. 🚀 Open a Pull Request with a clear description of the project added or updated.
 
 ---
