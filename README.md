@@ -63,7 +63,7 @@ The sector is **moderately consolidated to semi-fragmented**: traditional print 
 
 ## 💻 Open-Source GitHub Projects
 
-*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub Stars_Count.* ⭐
+*Open-source utilities, serverless print gateways, and self-hosted print queue engines. Sorted descending by GitHub_Stars_Count.* ⭐
 
 | 📦 Project | ⭐ Stars_Count | 📝 Description |
 | :--- | :--- | :--- |
